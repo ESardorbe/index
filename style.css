@@ -1,0 +1,92 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 1em 0;
+  text-align: center;
+  position: relative;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 1em;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 10px;
+  background-color: yellow;
+  color: black;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.skip-link:focus {
+  top: 10px;
+}
+
+/* Main Content */
+main {
+  padding: 1em;
+}
+
+img {
+  border: 5px solid #ddd;
+  border-radius: 10px;
+  padding: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 100%;
+  height: auto;
+}
+
+/* Grid Layout */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+figcaption {
+  text-align: center;
+  margin-top: 5px;
+}
+
+/* Flex Layout for Navigation */
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #444;
+  padding: 1em;
+}
+
+footer {
+  text-align: center;
+  padding: 1em;
+  background-color: #333;
+  color: white;
+}
